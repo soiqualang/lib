@@ -1,0 +1,11 @@
+﻿<html>
+<head>
+<script type="text/javascript" src="overlib.js"><!-- overLIB (c) Erik Bosrup --></script>
+</head>
+<body>
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<a href="javascript:void(0);" onmouseover="return overlib('This is an ordinary popup.');" onmouseout="return nd();">here</a>
+<a href="javascript:void(0);" onmouseover="return overlib('This is what we call a sticky, since I stick around (it goes away if you move the mouse OVER and then OFF the overLIB popup--or mouseover another overLIB).', STICKY, MOUSEOFF);" onmouseout="return nd();">here</a>
+<a href="javascript:void(0);" onclick="return overlib('This is a sticky with a caption. And it is centered under the mouse!', STICKY, CAPTION,'Sticky!', CENTER);" onmouseout="nd();">Click here!</a>
+</body>
+</html>

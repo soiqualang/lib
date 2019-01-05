@@ -1,0 +1,133 @@
+/*------------------------------------------------------------------------
+* JV Template 1.5 - Jan, 2010
+* ------------------------------------------------------------------------
+* Copyright (C) 2004-2010 APL Solutions And Vision Co., LTD. All Rights Reserved.
+* @license - Copyrighted Commercial Software
+* Author: APL Solutions And Vision Co., LTD
+* Websites:  http://www.joomgroup.com -  http://www.joomlavision.com
+-------------------------------------------------------------------------*/
+
+#jv-logo h1 {
+	background: url(../../images/black/logo.png) no-repeat 0 0;
+}
+
+#jv-mainmenu {
+	background: #23a2d7;
+}
+
+a,
+a:link,
+a:visited,
+ul.news_more li a,
+ul.cat_morelink li a {
+	color: #005689;
+}
+
+#jv-left h3.moduletitle,
+div.search .button {
+	background: url(../../images/black/bg-left-moduletitle.jpg) repeat-x center bottom #414141;
+}
+
+div.news_bar a.item {
+	border-bottom: solid 1px #696969;
+}
+
+div.news_bar a.item {
+	background: url(../../images/black/item.png) repeat-x 0 0 #CF6D5B;
+}
+div.news_bar a.selected {
+	background:url(../../images/black/item_active.png) repeat-x 0 0 #A02000;
+}
+
+ul li,
+ul.news_more li a,
+ul.cat_morelink li a,
+#jv-col2 div.latestnewsitems h4 {
+	background: url(../../images/black/bullet.png) no-repeat 0 7px;
+}
+
+#menusys_moo li,
+#menusys_css li,
+#menusys_split li,
+#menusys_submoo li {
+	background: url(../../images/black/bg-mainmenu-seperator.jpg) repeat-y right center;
+}
+
+#menusys_submoo li a {
+	text-shadow: 0 1px 0 #000;
+}
+
+#menusys_moo li a:hover,
+#menusys_moo li a:active,
+#menusys_moo li a:focus,
+#menusys_moo li:hover a,
+#menusys_moo li.hover a,
+#menusys_moo li.havechildhover a,
+#menusys_moo li.havechild-activehover a,
+
+#menusys_css li:hover a,
+#menusys_css li.hover a,
+#menusys_css li.havechildhover a,
+#menusys_css li.havechild-activehover a,
+
+#menusys_split li:hover a, 
+#menusys_split li.hover a, 
+#menusys_split li.havechildhover a, 
+#menusys_split li.havechild-activehover a,
+
+#menusys_submoo li:hover a,
+#menusys_submoo li.hover a,
+#menusys_submoo li a:hover,
+#menusys_submoo li a:active,
+#menusys_submoo li a:focus {
+	background: url(../../images/black/bg-mainmenu-active.jpg) repeat-x top;
+}
+
+#menusys_moo li a.active span,
+#menusys_moo li a.active:hover span,
+#menusys_moo li a.active:active span, 
+#menusys_moo li a.active:focus span,
+
+#menusys_css li a.active span,
+#menusys_css li a.active:hover span,
+#menusys_css li a.active:active span,
+#menusys_css li a.active:focus span,
+
+#menusub_split li a span,
+#menusys_split li a.active span,
+
+#menusub_submoo li a span,
+#menusys_submoo li a.active span,
+#menusys_submoo li a.active:hover span,
+#menusys_submoo li a.active:active span,
+#menusys_submoo li a.active:focus span {
+	color: #005689;
+}
+
+#menusys_moo li ul,
+#menusys_css li ul {
+	background: #23A2D7;
+}
+#menusys_moo li ul li,
+#menusys_css li ul li {
+	background:url(../../images/black/line_menu.png) repeat-x bottom;
+}
+
+.jv_tab_news2_wrap .jv_tabs_panel_news2 {
+	border-top: 1px solid #444;
+}
+
+.jv_tab_news2_wrap ul.tabs_title li.active a {
+	background: url(../../images/black/bga_r.jpg) no-repeat right top;
+}
+
+.jv_tab_news2_wrap ul.tabs_title li.active a span {
+	background: url(../../images/black/bg_active_l.jpg) no-repeat left top;
+}
+
+h2.contentheading,
+.contentheading,
+h1.componentheading,
+.componentheading {
+	color: #005689;
+}
