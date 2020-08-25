@@ -1,0 +1,41 @@
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<link id="bs-css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+<link id="bsdp-css" href="http://eternicode.github.io/bootstrap-datepicker/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet">
+
+<script src="http://eternicode.github.io/bootstrap-datepicker/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+<script type="text/javascript">
+	$('.input-group.date').datepicker({
+	});
+	$('.datepicker').datepicker();
+</script>
+
+<div class="container" style="width:1000px;">
+	<form action="/TaiLieuThuocQuyTrinh/ListForeach">
+		<div class="form-inline">
+			<label for="exampleInputEmail1">Giấy ĐKKD số </label>
+			<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Giấy đăng ký kinh doanh">
+			<button type="button" class="btn btn-default">Tìm kiếm</button>
+			<label for="ngaycaplb">Ngày cấp </label>
+			<div class="input-group date">
+			  <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+			</div>
+			<input data-provide="datepicker">
+		</div>
+	
+	
+	  <div class="form-group">
+		  <label for="sel1">Tên quy trình:</label>
+		  <select class="form-control" id="sel1">
+			<option>Cấp Giấy chứng nhận đủ điều kiện nhập khẩu phế liệu làm nguyên liệu sản xuất</option>
+			<option>Cấp sổ chủ nguồn thải CTNH</option>
+			<option>Thẩm tra, thu phí bảo vệ môi trường đối với nước thải công nghiệp</option>
+			<option>Cấp giấy phép hành nghề QLCTNH</option>
+			<option>Chứng nhận cơ sở gây ô nhiễm nghiêm trọng đã hoàn thành việc xử lý theo Quyết định số 64/2003/QĐ-TTg ngày 22/4/2003 của Thủ tướng Chính phủ</option>
+			<option>Cấp quyết định báo cáo đánh giá môi trường chiến lược (ĐMC)</option>
+			<option>Kiểm soát quá trình tiếp nhận, thẩm định, cấp Quyết định phê duyệt báo cáo ĐTM</option>
+		  </select>
+		</div>
+	  <button type="submit" class="btn btn-default">Tiếp tục</button>
+	</form>	
+</div>
